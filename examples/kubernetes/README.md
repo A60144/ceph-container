@@ -315,3 +315,6 @@ rbd feature disable <VOLUME NAME> deep-flatten
 rbd feature disable <VOLUME NAME> object-map
 rbd feature disable <VOLUME NAME> exclusive-lock
 ```
+
+In rdb-pv.yaml file, spec.rdb.monitors can use mon ${Ceph_Mon_Service}.${Namespace}:${Service_Port}
+
